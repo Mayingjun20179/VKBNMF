@@ -2,7 +2,7 @@
 
 Matlab code of Kernel Bayesian nonlinear matrix factorization based on variational inference for human-virus protein-protein interaction prediction. If the reference the code, please refer to the corresponding literature.
 
-(Written by Yingjun Ma 2024)
+(Written by Yingjun Ma, 2024)
 
 
 
