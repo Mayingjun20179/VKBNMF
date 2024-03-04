@@ -15,17 +15,24 @@ To run the code:
 mianZ.m：All experiments in three scenarios with four data sets
 
 The “Cv_experiment” folder contains related experiments on four datasets
-CV_VKBNMF_ARD.m： 
+
+CV_VKBNMF_ARD.m：5-fold cross validation 
 
 
 The “Algorithms” folder contains the relevant calculation code for VKBNMF:
+
 VKBNMF_opt_ARD_sig：Kernel Bayesian nonlinear matrix factorization based on variational inference.
 
+
+
 The Dataset folder contains all experimental data in this paper:
+
 (1) human_paac_sim.txt: The similarity of all human proteins calculated from PseAAC characteristics.
+
 (2) human_pro_ID.xlsx: The ID of the human protein
 
 (3)virus_paac_sim.txt: The similarity of all virus proteins calculated from PseAAC characteristics.
+
 (4) virus protein ID.xlsx : The ID of the virus protein.
 
 (5)human_virus_interaction.xlsx:  human-virus PPIs for four disease types.

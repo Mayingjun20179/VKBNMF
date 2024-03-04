@@ -15,7 +15,7 @@ To run the code:
 mianZ.m：All experiments in three scenarios with four data sets
 
 The “Cv_experiment” folder contains related experiments on four datasets
-CV_VKBNMF_ARD.m： 
+CV_VKBNMF_ARD.m： 5-fold cross validation 
 
 
 The “Algorithms” folder contains the relevant calculation code for VKBNMF:
