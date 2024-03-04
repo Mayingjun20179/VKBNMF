@@ -31,7 +31,6 @@ The Dataset folder contains all experimental data in this paper:
 (5)human_virus_interaction.xlsx:  human-virus PPIs for four disease types.
 
 
-In this package, we used the tensor tensor_toolbox-v3.1, which is downloaded from (https://gitlab.com/tensors/tensor_toolbox/-/releases/v3.1)
 
 
 

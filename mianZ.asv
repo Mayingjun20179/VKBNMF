@@ -15,7 +15,9 @@ for data_num = 1:4
     jieguo = CV_VKBNMF_ARD(1,data_num);
     result = [result;[['Data',num2str(data_num)],num2cell(jieguo)]];
 end
-writecell(result,'VKBNMF_result.xlsx','Sheet','Pairwise_interaction')
+
+
+writecell(result,'VKBNMF_result.xlsx')
 
 %CVr
 disp('Start VKBNMF:')
@@ -27,7 +29,7 @@ for data_num = 1:4
     jieguo = CV_VKBNMF_ARD(2,data_num);
     result = [result;[['Data',num2str(data_num)],num2cell(jieguo)]];
 end
-writecell(result,'VKBNMF_result.xlsx','Sheet','Human_Protein')
+
 
 %CVl
 disp('Start VKBNMF:')
@@ -39,5 +41,3 @@ for data_num = 1:4
     jieguo = CV_VKBNMF_ARD(3,data_num);
     result = [result;[['Data',num2str(data_num)],num2cell(jieguo)]];
 end
-
-writecell(result,'VKBNMF_result.xlsx','Sheet','Viral_Protein')
