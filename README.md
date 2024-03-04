@@ -1,15 +1,46 @@
-# KBLMF-ARD
-Kernel Bayesian Logistic Matrix Factorization with Automatic Relevance Determination for human-Viral Protein-protein prediction
+##VKBNMF
 
-This is the data and code for the paper "Kernel Bayesian nonlinear matrix factorization based on variational inference for human-virus protein-protein interaction prediction". Please cite if you use this code.
+Matlab code of Kernel Bayesian nonlinear matrix factorization based on variational inference for human-virus protein-protein interaction prediction. If the reference the code, please refer to the corresponding literature.
 
-Data description:
-"human_virus_interaction.xlsx" stores human-virus PPIs for four disease types.
-"human_paac_sim.zip" stores the similarity of human proteins and needs to be decompressed.
-virus_paac_sim.zip stores the similarity of virus proteins and needs to be decompressed.
-"human protein ID.xlsx" stores the ID of the human protein.
-"virus protein ID.xlsx" stores the ID of the virus protein.
+(Written by Yingjun Ma 2024)
 
-Code description: 
-"KBLMF_opt_ARD_sig.m" code for the VKBNMF method of this study；
- "Mian_ARD_sig" is the main function, and running this function can get the results of “Pairwise interaction” scenario , “Human Protein” Scenario,“Viral Protein” Scenario.
+
+
+To run the code:
+1. Change Matlab work directory to "/VKBNMF/".
+2. Run  "loadpah" code to add the current folder and subfolders into Matlab path searching list.
+3. Open and run the  mianZ.m. 
+
+
+mianZ.m：All experiments in three scenarios with four data sets
+
+The “Cv_experiment” folder contains related experiments on four datasets
+CV_VKBNMF_ARD.m： 
+
+
+The “Algorithms” folder contains the relevant calculation code for VKBNMF:
+KBLMF_opt_ARD_sig：Kernel Bayesian nonlinear matrix factorization based on variational inference.
+
+The Dataset folder contains all experimental data in this paper:
+(1) human_paac_sim.txt: The similarity of all human proteins calculated from PseAAC characteristics.
+(2) human_pro_ID.xlsx: The ID of the human protein
+
+(3)virus_paac_sim.txt: The similarity of all virus proteins calculated from PseAAC characteristics.
+(4) virus protein ID.xlsx : The ID of the virus protein.
+
+(5)human_virus_interaction.xlsx:  human-virus PPIs for four disease types.
+
+
+In this package, we used the tensor tensor_toolbox-v3.1, which is downloaded from (https://gitlab.com/tensors/tensor_toolbox/-/releases/v3.1)
+
+
+
+
+
+
+
+
+
+
+
+
