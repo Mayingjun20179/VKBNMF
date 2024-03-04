@@ -1,7 +1,7 @@
 clc
 clear 
-%%%%
-get_data()
+% %%%%
+% get_data()
 
 
 %%%%% VKBNMF

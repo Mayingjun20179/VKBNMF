@@ -19,7 +19,7 @@ CV_VKBNMF_ARD.m：
 
 
 The “Algorithms” folder contains the relevant calculation code for VKBNMF:
-KBLMF_opt_ARD_sig：Kernel Bayesian nonlinear matrix factorization based on variational inference.
+VKBNMF_opt_ARD_sig：Kernel Bayesian nonlinear matrix factorization based on variational inference.
 
 The Dataset folder contains all experimental data in this paper:
 (1) human_paac_sim.txt: The similarity of all human proteins calculated from PseAAC characteristics.
